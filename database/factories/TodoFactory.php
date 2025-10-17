@@ -18,6 +18,8 @@ class TodoFactory extends Factory
     {
         return [
             //
+            'title' => fake()->sentence(),
+            'completed' => fake()->boolean(),
         ];
     }
 }
